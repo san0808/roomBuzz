@@ -1,0 +1,95 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Day {
+  MON
+  TUE
+  WED
+  THU
+  FRI
+  SAT
+}
+
+enum Year {
+  FIRST
+  SECOND
+  THIRD
+  FOURTH
+}
+
+enum Department {
+  ALL
+  CSE
+  ECE
+  EEE
+  MCE
+  CVE
+  HSS
+  APS
+}
+
+model Timetable {
+  id         Int        @id @default(autoincrement()) @map(name: "timetable_id")
+  name       String
+  year       Year
+  department Department
+  lectures   Lecture[]
+
+  @@unique([year, department])
+  @@map("rb_timetable")
+}
+
+model Lecture {
+  id          Int        @id @default(autoincrement()) @map(name: "lecture_id")
+  subject     Subject    @relation(fields: [subjectId], references: [id])
+  subjectId   Int        @map("subject_id")
+  faculty     Faculty    @relation(fields: [facultyId], references: [id])
+  facultyId   Int        @map("faculty_id")
+  description String
+  day         Day
+  classroom   Classroom  @relation(fields: [classroomId], references: [id])
+  startTime   DateTime   @map("start_time") @db.Time(1)
+  endTime     DateTime   @map("end_time") @db.Time(1)
+  classroomId Int        @map(name: "classroom_id")
+  timetable   Timetable? @relation(fields: [timetableId], references: [id])
+  timetableId Int?       @map(name: "timetable_id")
+
+  @@map("rb_lecture")
+}
+
+model Subject {
+  id       Int       @id @default(autoincrement()) @map(name: "subject_id")
+  lectures Lecture[]
+  name     String
+  code     String
+
+  @@map("rb_subject")
+}
+
+model Faculty {
+  id       Int       @id @default(autoincrement()) @map(name: "faculty_id")
+  name     String
+  code     String
+  lectures Lecture[]
+
+  @@map("rb_faculty")
+}
+
+model Classroom {
+  id       Int       @id @default(autoincrement()) @map(name: "classroom_id")
+  name     String
+  code     String
+  detail   String?
+  lectures Lecture[]
+
+  @@map("rb_classroom")
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "ref_id": "1",
+    "name": "Time Table for 1st Year",
+    "year": "FIRST",
+    "department": "ALL"
+  },
+  {
+    "ref_id": "2",
+    "name": "Time Table for 2nd Year",
+    "year": "SECOND",
+    "department": "CSE"
+  },
+  {
+    "ref_id": "3",
+    "name": "Time Table for 2nd Year",
+    "year": "SECOND",
+    "department": "EEE"
+  },
+  {
+    "ref_id": "4",
+    "name": "Time Table for 2nd Year",
+    "year": "SECOND",
+    "department": "ECE"
+  },
+  {
+    "ref_id": "5",
+    "name": "Time Table for 2nd Year",
+    "year": "SECOND",
+    "department": "MCE"
+  },
+  {
+    "ref_id": "6",
+    "name": "Time Table for 2nd Year",
+    "year": "SECOND",
+    "department": "CVE"
+  },
+  {
+    "ref_id": "7",
+    "name": "Time Table for 3rd Year",
+    "year": "THIRD",
+    "department": "CSE"
+  },
+  {
+    "ref_id": "8",
+    "name": "Time Table for 3rd Year",
+    "year": "THIRD",
+    "department": "EEE"
+  },
+  {
+    "ref_id": "9",
+    "name": "Time Table for 3rd Year",
+    "year": "THIRD",
+    "department": "ECE"
+  },
+  {
+    "ref_id": "10",
+    "name": "Time Table for 3rd Year",
+    "year": "THIRD",
+    "department": "MCE"
+  },
+  {
+    "ref_id": "11",
+    "name": "Time Table for 3rd Year",
+    "year": "THIRD",
+    "department": "CVE"
+  },
+  {
+    "ref_id": "12",
+    "name": "Time Table for 4th Year",
+    "year": "FOURTH",
+    "department": "CSE"
+  },
+  {
+    "ref_id": "13",
+    "name": "Time Table for 4th Year",
+    "year": "FOURTH",
+    "department": "EEE"
+  },
+  {
+    "ref_id": "14",
+    "name": "Time Table for 4th Year",
+    "year": "FOURTH",
+    "department": "ECE"
+  },
+  {
+    "ref_id": "15",
+    "name": "Time Table for 4th Year",
+    "year": "FOURTH",
+    "department": "MCE"
+  },
+  {
+    "ref_id": "16",
+    "name": "Time Table for 4th Year",
+    "year": "FOURTH",
+    "department": "CVE"
+  }
+]
