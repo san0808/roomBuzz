@@ -1,0 +1,62 @@
+[
+  {
+    "name": "N1",
+    "code": "N1",
+    "detail": ""
+  },
+  {
+    "name": "N2",
+    "code": "N2",
+    "detail": ""
+  },
+  {
+    "name": "N6",
+    "code": "N6",
+    "detail": ""
+  },
+  {
+    "name": "N7",
+    "code": "N7",
+    "detail": ""
+  },
+  {
+    "name": "N8",
+    "code": "N8",
+    "detail": ""
+  },
+  {
+    "name": "1A",
+    "code": "1A",
+    "detail": ""
+  },
+  {
+    "name": "2A",
+    "code": "2A",
+    "detail": ""
+  },
+  {
+    "name": "1B",
+    "code": "1B",
+    "detail": ""
+  },
+  {
+    "name": "1C",
+    "code": "1C",
+    "detail": ""
+  },
+  {
+    "name": "Seminar Hall",
+    "code": "SH",
+    "detail": ""
+  },
+  {
+    "name": "EEE Machines Lab",
+    "code": "EEE-LAB-II",
+    "detail": ""
+  },
+  {
+    "name": "ECE Lab",
+    "code": "ECE-LAB-I",
+    "detail": ""
+  }
+]

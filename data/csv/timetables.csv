@@ -1,17 +1,17 @@
-title,year,department
-Time Table for 1st Year,1,ALL
-Time Table for 2nd Year,2,CSE
-Time Table for 2nd Year,2,EEE
-Time Table for 2nd Year,2,ECE
-Time Table for 2nd Year,2,MCE
-Time Table for 2nd Year,2,CVE
-Time Table for 3rd Year,3,CSE
-Time Table for 3rd Year,3,EEE
-Time Table for 3rd Year,3,ECE
-Time Table for 3rd Year,3,MCE
-Time Table for 3rd Year,3,CVE
-Time Table for 4th Year,4,CSE
-Time Table for 4th Year,4,EEE
-Time Table for 4th Year,4,ECE
-Time Table for 4th Year,4,MCE
-Time Table for 4th Year,4,CVE
+ref_id,name,year,department
+1,Time Table for 1st Year,FIRST,ALL
+2,Time Table for 2nd Year,SECOND,CSE
+3,Time Table for 2nd Year,SECOND,EEE
+4,Time Table for 2nd Year,SECOND,ECE
+5,Time Table for 2nd Year,SECOND,MCE
+6,Time Table for 2nd Year,SECOND,CVE
+7,Time Table for 3rd Year,THIRD,CSE
+8,Time Table for 3rd Year,THIRD,EEE
+9,Time Table for 3rd Year,THIRD,ECE
+10,Time Table for 3rd Year,THIRD,MCE
+11,Time Table for 3rd Year,THIRD,CVE
+12,Time Table for 4th Year,FOURTH,CSE
+13,Time Table for 4th Year,FOURTH,EEE
+14,Time Table for 4th Year,FOURTH,ECE
+15,Time Table for 4th Year,FOURTH,MCE
+16,Time Table for 4th Year,FOURTH,CVE

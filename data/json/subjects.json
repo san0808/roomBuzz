@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Electrical Machines - II",
+    "code": "EE301"
+  },
+  {
+    "name": "MPMC Lab",
+    "code": "EE305"
+  },
+  {
+    "name": "Machines Lab",
+    "code": "EE304"
+  },
+  {
+    "name": "Control Systems",
+    "code": "EE302"
+  },
+  {
+    "name": "NPMC",
+    "code": "EE303"
+  },
+  {
+    "name": "Transmission Lines",
+    "code": "EE300"
+  },
+  {
+    "name": "Environmental Studies",
+    "code": "ES300"
+  }
+]

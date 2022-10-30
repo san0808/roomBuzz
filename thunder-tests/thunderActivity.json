@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "23e04b3e-c579-4fdb-8b13-9ae6ae0a5e58",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/timetable",
+    "url": "http://localhost:3000/api/timetable?year=THIRD&department=EEE",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-27T07:17:35.703Z",
+    "modified": "2022-10-27T07:28:30.728Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "year",
+        "value": "THIRD",
+        "isPath": false
+      },
+      {
+        "name": "department",
+        "value": "EEE",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "ba8b7f60-1bbd-48ed-8224-cfb2760222b0",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/timetable?year&department",
+    "url": "http://localhost:3000/api/timetable?year&department",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-27T07:25:46.067Z",
+    "modified": "2022-10-27T07:25:46.769Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "year",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "department",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "2e563dd6-f5cf-471e-a9ff-be7fa4eff94e",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/timetable?year=THIRD&department",
+    "url": "http://localhost:3000/api/timetable?year=THIRD&department",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-27T07:27:43.509Z",
+    "modified": "2022-10-27T07:27:43.509Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "year",
+        "value": "THIRD",
+        "isPath": false
+      },
+      {
+        "name": "department",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]
